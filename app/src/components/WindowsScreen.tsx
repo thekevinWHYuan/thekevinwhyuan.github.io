@@ -58,7 +58,7 @@ const WindowsScreen: Component = () => {
             </div>
             <ul class="flex w-full h-[20%] justify-end items-center">
                 <li class="h-full w-1/5 flex">
-                    <button class="border-2 m-2 border-r-palette-purple border-b-palette-purple w-full hover:cursor-pointer border-t-gray-50 border-l-gray-50 text-sm" onclick={() => {if (shutdown() == "Shut Down"){window.close()}}}>{(shutdown() == "" || shutdown() == "Shut Down") ? "Ok" : "just kidding"}</button>
+                    <button class="border-2 m-2 border-r-palette-purple border-b-palette-purple w-full hover:cursor-pointer border-t-gray-50 border-l-gray-50 text-sm" onclick={() => {if (shutdown() == "Shut Down"){window.close()}}}>{(shutdown() == "" || shutdown() == "Shut Down") ? "Ok" : "lol no"}</button>
                 </li>
                 <li class="h-full w-1/5 flex">
                     <button class="border-2 m-2 border-r-palette-purple border-b-palette-purple w-full hover:cursor-pointer border-t-gray-50 border-l-gray-50 text-sm" onclick={closeDialog}>Cancel</button>
@@ -78,6 +78,7 @@ const WindowsScreen: Component = () => {
 
 
         <div class="h-[89%] w-full grid grid-cols-8 grid-rows-8 bg-[#f9e3ff] grid-flow-col p-10">
+            <WindowApp source="/images/recycle_bin.png" name="Recycle Bin"></WindowApp>
             <WindowApp source="/images/resume_app.png" name="Resume"/>
             <WindowApp source="/images/about_me_logo.png" name="About Me"></WindowApp>
         </div>
@@ -91,8 +92,8 @@ const WindowsScreen: Component = () => {
             <a target="_blank" href="https://github.com/thekevinWHYuan" class="aspect-square h-[32px] ml-2 mr-2 hover:cursor-pointer">
                 <img src="/images/github_logo.png" alt="My Github"/>
             </a>
-            <a target="_blank" href="https://www.instagram.com/thekevinwhyuan" class="aspect-square h-[32px] ml-2 mr-2 hover:cursor-pointer">
-                <img src="/images/instagram_logo.png" alt="My Instagram"/>
+            <a target="_blank" href="https://www.linkedin.com/in/kevyudev/" class="aspect-square h-[32px] ml-2 mr-2 hover:cursor-pointer">
+                <img src="/images/linkedin_logo.png" alt="My Linkedin"/>
             </a>
             <TaskbarDivider/>
             <div class="flex flex-grow h-full items-center pl-2">
