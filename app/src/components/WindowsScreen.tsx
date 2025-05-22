@@ -78,7 +78,6 @@ const WindowsScreen: Component = () => {
 
 
         <div class="h-[89%] w-full grid grid-cols-8 grid-rows-8 bg-[#f9e3ff] grid-flow-col p-10">
-            <WindowApp source="/images/recycle_bin.png" name="Recycle Bin"></WindowApp>
             <WindowApp source="/images/resume_app.png" name="Resume"/>
             <WindowApp source="/images/about_me_logo.png" name="About Me"></WindowApp>
         </div>
